@@ -36,7 +36,7 @@ print("---")
 print("Profile Summary:")
 print(f"Full Name: {collected_data['Name']} ")
 print(f"Age: {collected_data['Age']}")
-print(f"Life Stage: {collected_data['Life Stage']}")    
+print(f"Life Stage: {collected_data['Life Stage']}")
 if len(collected_data['Hobbies']) <= 0:
     print("You didn't mention any hobbies")
 else:
